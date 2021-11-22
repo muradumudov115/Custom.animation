@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.dioqanal{
+    width: 600px;
+    height: 90px;
+    background-color: red;
+    transform: rotate(20deg);
+    margin-top: 100px;
+    margin-left: 100px;
+    position: relative;
+
+}
+.square{
+width: 70px;
+height: 70px;
+background-color: black;
+top: 20px;
+bottom: 20px;
+position: relative;
+left: 30px;
+right: 30px;
+animation-fill-mode: forwards;
+animation-direction: reverse;
+animation-iteration-count: 1;
+animation-duration: 7s;
+animation:animation 5s linear  ;
+}
+
+@keyframes animation {
+    0% {
+        transform: rotate(0deg);
+        left: 0px;
+
+
+    }
+    25%{
+
+        transform: rotate(90deg);
+        left:25%;
+
+
+
+    }
+    50%{
+
+        transform: rotate(180deg);
+        left:50%;
+
+
+    }
+    75%{
+
+        transform: rotate(270deg);
+        left:75%; 
+
+
+
+    }
+    100%{
+
+        transform: rotate(360deg);
+        left:90%;
+
+
+
+    }
+  }
